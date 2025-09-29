@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="0.85"
+        android:layout_marginTop="20sp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/icon"
+            android:layout_weight="0.15"/>
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/profile"
+            android:layout_weight="0.8"
+            android:id="@+id/profile"
+            android:scaleType="fitXY"
+            android:background="#00000000"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="0.15">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.95"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.05"
+            android:orientation="vertical"
+            android:layout_marginBottom="20sp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_weight="0.3">
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/emergency"
+                    android:layout_weight="0.5"
+                    android:scaleType="fitCenter"
+                    android:adjustViewBounds="true"
+                    android:background="#00000000"
+                    android:id="@+id/emergency"/>
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/family"
+
+                    android:layout_weight="0.5"
+                    android:scaleType="fitCenter"
+                    android:adjustViewBounds="true"
+                    android:background="#00000000"
+                    android:id="@+id/family"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_weight="0.3" >
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ambulance"
+                    android:layout_weight="0.5"
+                    android:scaleType="fitCenter"
+                    android:adjustViewBounds="true"
+
+                    android:background="#00000000"
+                    android:id="@+id/ambulance"/>
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/police"
+                    android:layout_weight="0.5"
+                    android:scaleType="fitCenter"
+
+                    android:adjustViewBounds="true"
+                    android:background="#00000000"
+                    android:id="@+id/cops"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_weight="0.3">
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/hospital"
+                    android:layout_weight="0.5"
+                    android:scaleType="fitCenter"
+                    android:adjustViewBounds="true"
+                    android:background="#00000000"
+                    android:id="@+id/hospital"/>
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/station"
+                    android:layout_weight="0.5"
+                    android:scaleType="fitCenter"
+                    android:adjustViewBounds="true"
+                    android:background="#00000000"
+                    android:id="@+id/polstation"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+
+
+
+
